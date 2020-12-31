@@ -4,7 +4,7 @@ VOWELS = "aeiou"
 
 for letter in VOWELS:
     if letter not in VOWELS :
-        newMessage += g
+        newMessage += "g"
     else:
         newMessage += letter
         print("A new string has been created:", newMessage)
